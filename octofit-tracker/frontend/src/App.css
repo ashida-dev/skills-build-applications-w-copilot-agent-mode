@@ -1,0 +1,121 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.App {
+  text-align: center;
+  background: rgba(255,255,255,0.8);
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  height: 32px;
+  margin-right: 10px;
+}
+.nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+}
+.nav-link.active, .nav-link:hover {
+  color: #ffe082 !important;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.table-dark {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  color: #fff;
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-secondary {
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 0.4em 1.2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  color: #fff;
+}
+.btn-info {
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+  color: #fff;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+  color: #fff;
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #757f9a 0%, #d7dde8 100%);
+  color: #222;
+}
+
+.card-title {
+  color: #007bff;
+  font-weight: bold;
+}
+h2, h1, h3 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color: #00c6ff;
+  text-decoration: underline;
+}
+
+.form-control {
+  border-radius: 20px;
+  border: 1px solid #007bff;
+}
+.form-control:focus {
+  border-color: #00c6ff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+}
+
+/* Favicon and logo animation */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
